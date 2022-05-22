@@ -14,6 +14,8 @@ cd ./go-cardano-submit-api
 
 make
 
+The cardano-submit-api binary will be availabe in the same directory after build process is finished.
+
 The binary does not require arguments, however, it expects CARDANO_NODE_SOCKET_PATH ENV var to be set, or the socket file to be located at "/node-ipc/node.socket"
 
 If you are using the cardano-node FreeBSD port, you can change cardano-node socket file location by adding the following line in the /etc/rc.conf files :
