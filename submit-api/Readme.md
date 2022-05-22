@@ -13,3 +13,10 @@ git clone https://github.com/cloudstruct/go-cardano-submit-api.git
 cd ./go-cardano-submit-api
 
 make
+
+The binary does not require arguments, however, it expects CARDANO_NODE_SOCKET_PATH ENV var to be set, or the socket file to be located at "/node-ipc/node.socket"
+
+If you are using the cardano-node FreeBSD port, you can change cardano-node socket file location by adding the following line in the /etc/rc.conf files :
+cardano_node_socket="/path/to/caradno.socket"
+
+By default, the SubmitAPI services runs on port 8090 and the metrics endpoint is accessible at http://localhost:8081/debug/metrics
