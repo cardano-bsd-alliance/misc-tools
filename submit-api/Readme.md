@@ -23,4 +23,4 @@ The binary does not require arguments, however, it expects CARDANO_NODE_SOCKET_P
 If you are using the cardano-node FreeBSD port, you can change cardano-node socket file location by adding the following line in the /etc/rc.conf files :
 cardano_node_socket="/path/to/cardano.socket"
 
-By default, the SubmitAPI services runs on port 8090 and the metrics endpoint is accessible at http://localhost:8081/debug/metrics
+By default, the SubmitAPI services runs on port 8090 and the metrics endpoint is accessible at http://localhost:8081/
