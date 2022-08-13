@@ -1,4 +1,4 @@
-DBSYNC snapshops uploader script for FreeBSD
+DBSYNC snapshots uploader script for FreeBSD
 
 Prereqs:
 - A working cardano-db-sync instance.
